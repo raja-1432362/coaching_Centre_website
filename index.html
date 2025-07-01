@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduExcel Academy</title>
+    <meta name="description" content="Top-rated coaching for NEET, JEE Mains & Advanced with 15+ years experience, 1000+ selections, and 98% success rate.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- WhatsApp CTA -->
+    <a href="https://wa.me/919876543210" class="whatsapp-cta" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h1>Edu<span>Excel</span></h1>
+            </a>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#teachers">Teachers</a></li>
+                    <li><a href="#batch">Batch Schedule</a></li>
+                    <li><a href="#testimonials">Results</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <a href="#admission" class="cta-button">Enroll Now</a>
+            
+            <div class="mobile-menu" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Your Pathway to <span class="typewriter">IITs and AIIMS</span></h2>
+                <p>15+ years of excellence in preparing students for NEET, JEE Mains, and JEE Advanced with top faculty and proven results.</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="cta-button"><i class="fas fa-book-open"></i> Explore Courses</a>
+                    <a href="#admission" class="cta-button btn-outline"><i class="fas fa-chalkboard-teacher"></i> Free Demo Class</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>1000+</h3>
+                            <p>Selections</p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>98%</h3>
+                            <p>Success Rate</p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>25+</h3>
+                            <p>Expert Faculty</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+                <p>Discover our journey and commitment to excellence in competitive exam preparation</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <h3>Transforming Dreams into Reality Since 2008</h3>
+                    <p>EduExcel Academy was founded with a mission to provide quality education and comprehensive coaching to aspiring medical and engineering students. Our experienced faculty and innovative teaching methods have helped thousands of students achieve their dreams.</p>
+                    <p>We believe in a holistic approach to education that combines academic excellence with personal development, ensuring our students are well-prepared for both competitive exams and future challenges.</p>
+                    
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <div class="achievement-number">15+</div>
+                            <div>Years of Experience</div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-number">1000+</div>
+                            <div>Selections</div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-number">98%</div>
+                            <div>Success Rate</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image animate-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3" alt="EduExcel Academy Campus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="section courses" id="courses">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Courses</h2>
+                <p>Specialized programs designed to maximize your potential in competitive exams</p>
+            </div>
+            
+            <div class="course-filters">
+                <button class="filter-btn active" data-filter="all">All Courses</button>
+                <button class="filter-btn" data-filter="medical">Medical</button>
+                <button class="filter-btn" data-filter="engineering">Engineering</button>
+                <button class="filter-btn" data-filter="foundation">Foundation</button>
+            </div>
+            
+            <div class="course-grid">
+                <!-- NEET Course -->
+                <div class="course-card animate-on-scroll" data-course="medical">
+                    <div class="course-badge">Most Popular</div>
+                    <div class="course-header">
+                        <h3>NEET Preparation</h3>
+                        <p>Complete Medical Entrance Program</p>
+                    </div>
+                    <div class="course-body">
+                        <div class="course-feature">
+                            <i class="fas fa-clock"></i>
+                            <div>2 Year Program</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-book"></i>
+                            <div>Physics, Chemistry, Biology</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-chart-line"></i>
+                            <div>100+ Mock Tests & Analysis</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-users"></i>
+                            <div>Expert Faculty with 10+ years experience</div>
+                        </div>
+                        <div class="course-price">
+                            ₹89,999 <span>per year</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="#admission" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- JEE Mains Course -->
+                <div class="course-card animate-on-scroll" data-course="engineering">
+                    <div class="course-badge">Limited Seats</div>
+                    <div class="course-header" style="background: var(--secondary);">
+                        <h3>JEE Mains</h3>
+                        <p>Engineering Entrance Program</p>
+                    </div>
+                    <div class="course-body">
+                        <div class="course-feature">
+                            <i class="fas fa-clock"></i>
+                            <div>2 Year Program</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-book"></i>
+                            <div>Physics, Chemistry, Mathematics</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-chart-line"></i>
+                            <div>Comprehensive Test Series</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-users"></i>
+                            <div>IIT Alumni Faculty</div>
+                        </div>
+                        <div class="course-price">
+                            ₹84,999 <span>per year</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="#admission" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- JEE Advanced Course -->
+                <div class="course-card animate-on-scroll" data-course="engineering">
+                    <div class="course-badge">Premium</div>
+                    <div class="course-header" style="background: var(--accent);">
+                        <h3>JEE Advanced</h3>
+                        <p>Premium IIT Preparation</p>
+                    </div>
+                    <div class="course-body">
+                        <div class="course-feature">
+                            <i class="fas fa-clock"></i>
+                            <div>Advanced Level Program</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-book"></i>
+                            <div>Problem Solving & Advanced Concepts</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-chart-line"></i>
+                            <div>Previous Year Paper Analysis</div>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-users"></i>
+                            <div>Specialized Faculty Team</div>
+                        </div>
+                        <div class="course-price">
+                            ₹99,999 <span>per year</span>
+                        </div>
+                    </div>
+                    <div class="course-footer">
+                        <a href="#admission" class="cta-button">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section class="section" id="teachers">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Expert Faculty</h2>
+                <p>Learn from the best educators with proven track records in competitive exam training</p>
+            </div>
+            
+            <div class="teacher-grid">
+                <!-- Teacher 1 -->
+                <div class="teacher-card animate-on-scroll">
+                    <div class="teacher-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3" alt="Dr. Ananya Sharma">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Dr. Ananya Sharma</h3>
+                        <span class="teacher-subject">Biology Faculty</span>
+                        <p>12+ years experience | 500+ NEET selections</p>
+                    </div>
+                </div>
+                
+                <!-- Teacher 2 -->
+                <div class="teacher-card animate-on-scroll">
+                    <div class="teacher-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3" alt="Prof. Rajesh Kumar">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Prof. Rajesh Kumar</h3>
+                        <span class="teacher-subject">Physics Faculty</span>
+                        <p>Ex-IIT Professor | 15+ years experience</p>
+                    </div>
+                </div>
+                
+                <!-- Teacher 3 -->
+                <div class="teacher-card animate-on-scroll">
+                    <div class="teacher-image">
+                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3" alt="Dr. Priya Singh">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Dr. Priya Singh</h3>
+                        <span class="teacher-subject">Chemistry Faculty</span>
+                        <p>PhD in Chemistry | Author of 5 reference books</p>
+                    </div>
+                </div>
+                
+                <!-- Teacher 4 -->
+                <div class="teacher-card animate-on-scroll">
+                    <div class="teacher-image">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3" alt="Dr. Amit Patel">
+                        <div class="teacher-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h3>Dr. Amit Patel</h3>
+                        <span class="teacher-subject">Mathematics Faculty</span>
+                        <p>IIT Madras Alumni | 8+ years experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title white">
+                <h2>Student Success Stories</h2>
+                <p>Hear from our students who achieved their dreams with EduExcel Academy</p>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            "EduExcel Academy transformed my approach to JEE preparation. The faculty's guidance and the comprehensive test series helped me secure AIR 287 in JEE Advanced. The doubt-solving sessions were particularly helpful."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3" alt="Rahul Sharma">
+                            </div>
+                            <div class="author-info">
+                                <h4>Rahul Sharma</h4>
+                                <div class="author-rank">AIR 287 in JEE Advanced 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            "The biology faculty at EduExcel is exceptional. Their teaching methodology helped me understand complex concepts easily. I scored 685 in NEET and got admission to my dream medical college. Thank you EduExcel!"
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3" alt="Priya Verma">
+                            </div>
+                            <div class="author-info">
+                                <h4>Priya Verma</h4>
+                                <div class="author-rank">NEET 2023 Score: 685/720</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            "The test series and analysis at EduExcel were game-changers for me. The detailed feedback helped me identify my weak areas and improve significantly. I secured AIR 423 in JEE Mains 2023."
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3" alt="Amit Joshi">
+                            </div>
+                            <div class="author-info">
+                                <h4>Amit Joshi</h4>
+                                <div class="author-rank">AIR 423 in JEE Mains 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav">
+                    <div class="testimonial-dot active" data-index="0"></div>
+                    <div class="testimonial-dot" data-index="1"></div>
+                    <div class="testimonial-dot" data-index="2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Batch Schedule Section -->
+    <section class="section batch-schedule" id="batch">
+        <div class="container">
+            <div class="section-title white">
+                <h2>Batch Schedule</h2>
+                <p>Upcoming batches for 2023-2024 academic session</p>
+            </div>
+            
+            <div class="batch-container animate-on-scroll">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                            <th>Start Date</th>
+                            <th>Duration</th>
+                            <th>Seats</th>
+                            <th>Timing</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>NEET 2 Year Program</td>
+                            <td>June 15, 2023</td>
+                            <td>24 Months</td>
+                            <td><span class="batch-badge">15 Seats Left</span></td>
+                            <td>4:00 PM - 7:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>JEE Mains 2 Year Program</td>
+                            <td>June 20, 2023</td>
+                            <td>24 Months</td>
+                            <td><span class="batch-badge">10 Seats Left</span></td>
+                            <td>8:00 AM - 11:00 AM</td>
+                        </tr>
+                        <tr>
+                            <td>JEE Advanced Crash Course</td>
+                            <td>July 1, 2023</td>
+                            <td>6 Months</td>
+                            <td><span class="batch-badge">8 Seats Left</span></td>
+                            <td>2:00 PM - 5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>NEET Crash Course</td>
+                            <td>July 10, 2023</td>
+                            <td>6 Months</td>
+                            <td><span class="batch-badge">12 Seats Left</span></td>
+                            <td>10:00 AM - 1:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Foundation (Class 9-10)</td>
+                            <td>June 25, 2023</td>
+                            <td>12 Months</td>
+                            <td><span class="batch-badge">20 Seats Left</span></td>
+                            <td>3:00 PM - 6:00 PM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about our programs and admission process</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        How do I apply for admission at EduExcel Academy?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can apply for admission by filling out the admission form on our website. After submission, our admission team will contact you to schedule an entrance test and counseling session. Alternatively, you can visit our campus directly for on-spot admission.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        What is the fee structure for NEET/JEE courses?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our fee structure varies depending on the course and duration. The annual fee for our 2-year NEET/JEE program is ₹89,999. We also offer installment plans and scholarships for meritorious students. For detailed fee information, please contact our admission office.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        Do you provide study materials?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we provide comprehensive study materials developed by our expert faculty. This includes theory books, practice workbooks, previous years' question banks, and test series. All materials are regularly updated according to the latest exam patterns and syllabus.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        Can I switch from online to offline mode or vice versa?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer flexibility to switch between online and offline modes based on your preference and circumstances. A nominal administrative fee may apply for mode switching. Please discuss your requirements with our academic coordinator.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        What is your refund policy?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 90% refund if requested within 15 days of admission. After 15 days but within 30 days, a 50% refund is applicable. No refunds are provided after 30 days of admission. All refund requests must be submitted in writing to the admission office.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown">
+        <div class="container">
+            <div class="countdown-title">Next Batch Starts In</div>
+            <div class="countdown-subtitle">Limited seats available - Enroll today!</div>
+            <div class="timer">
+                <div class="timer-item">
+                    <div class="timer-number" id="days">15</div>
+                    <div class="timer-label">Days</div>
+                </div>
+                <div class="timer-item">
+                    <div class="timer-number" id="hours">08</div>
+                    <div class="timer-label">Hours</div>
+                </div>
+                <div class="timer-item">
+                    <div class="timer-number" id="minutes">42</div>
+                    <div class="timer-label">Minutes</div>
+                </div>
+                <div class="timer-item">
+                    <div class="timer-number" id="seconds">30</div>
+                    <div class="timer-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any queries or admission assistance</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>123 Education Street, Knowledge City, IN 560001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Phone Number</h3>
+                            <p>+91 9876543210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email Address</h3>
+                            <p>info@eduexcelacademy.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Working Hours</h3>
+                            <p>Monday - Saturday: 8:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map"></i>
+                        </div>
+                        <div>
+                            <h3>Campus Tour</h3>
+                            <p>Schedule a campus visit to experience our facilities</p>
+                            <a href="#contact" class="cta-button secondary" style="margin-top: 15px; display: inline-block;">Schedule Visit</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" id="admission">
+                    <h3>Admission Enquiry Form</h3>
+                    <form id="admissionForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Mobile Number</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="course">Course Interested In</label>
+                            <select id="course" class="form-control" required>
+                                <option value="">Select a Course</option>
+                                <option value="neet">NEET Preparation</option>
+                                <option value="jee-mains">JEE Mains</option>
+                                <option value="jee-advanced">JEE Advanced</option>
+                                <option value="foundation">Foundation (8th-10th)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mode">Preferred Mode</label>
+                            <select id="mode" class="form-control" required>
+                                <option value="">Select Mode</option>
+                                <option value="online">Online Classes</option>
+                                <option value="offline">Offline Classes</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message (Optional)</label>
+                            <textarea id="message" class="form-control" rows="4"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="cta-button">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">Edu<span>Excel</span></div>
+                    <p>Providing quality education and comprehensive coaching for NEET, JEE Mains, and JEE Advanced since 2008.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#courses"><i class="fas fa-chevron-right"></i> Courses</a></li>
+                        <li><a href="#teachers"><i class="fas fa-chevron-right"></i> Faculty</a></li>
+                        <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Results</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Our Courses</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> NEET Preparation</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> JEE Mains</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> JEE Advanced</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Foundation Course</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Crash Courses</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street, Knowledge City</li>
+                        <li><i class="fas fa-phone-alt"></i> +91 9876543210</li>
+                        <li><i class="fas fa-envelope"></i> info@eduexcelacademy.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 8:00AM - 8:00PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 EduExcel Academy. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color: #ef4444;"></i> for Student Success</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
