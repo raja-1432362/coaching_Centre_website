@@ -2,7 +2,7 @@
 
 EduExcel Academy is a modern, responsive frontend website designed for a coaching institute offering NEET, JEE Mains, and JEE Advanced preparation. It features a clean UI, animated sections, interactive features, and a focus on student engagement and enrollment.
 
----
+website live link: https://eduexcell-academy-mark-04.netlify.app/
 
 ## 📁 Project Structure
 
